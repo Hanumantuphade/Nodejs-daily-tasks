@@ -1,0 +1,2 @@
+hello i am comming node.js to learn file system operations I am appending this text.
+ I am appending this text.
