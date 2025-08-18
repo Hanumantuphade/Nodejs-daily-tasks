@@ -57,7 +57,7 @@ app.post("/register", async (req, res) => {
       });
       let token = jwt.sign({ email: email, userid: user._id }, "988171");
       res.cookie("token", token);
-      res.send("user registered");
+      res.redirect("/login");
     });
   });
 });
